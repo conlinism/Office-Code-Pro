@@ -7,7 +7,7 @@ if test ! $(which git); then
 fi
 
 #Download the repo and cd to fonts folder (Thanks to w0ng!)
-git clone https://github.com/conlinism/Office-Code-Pro.git Office-Code-Pro;
+git clone https://github.com/nathco/Office-Code-Pro.git Office-Code-Pro;
 cd Office-Code-Pro/Fonts/OTF;
 
 #Magical find command to cp all fonts to /Library/Fonts
