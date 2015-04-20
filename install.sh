@@ -6,7 +6,7 @@ if test ! $(which git); then
   exit 0
 fi
 
-#Download the repo and cd to fonts folder (Thanks to w0ng!)
+#Download the repo and cd to fonts folder
 git clone https://github.com/nathco/Office-Code-Pro.git Office-Code-Pro;
 cd Office-Code-Pro/Fonts/OTF;
 
